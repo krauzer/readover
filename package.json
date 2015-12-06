@@ -4,6 +4,9 @@
   "description": "Writing Tool",
   "main": "index.js",
   "scripts": {
+    "server": "node server.js",
+    "dev": "./node_modules/.bin/webpack-dev-server --progress --colors",
+    "build": "./node_modules/.bin/webpack -d --progress",
     "lint": "./node_modules/.bin/eslint **; exit 0",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

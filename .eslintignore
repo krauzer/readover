@@ -1,0 +1,7 @@
+#ignore dist files
+client/dist/
+
+#non-js
+LICENSE
+*.json
+*.md

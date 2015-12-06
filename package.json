@@ -1,0 +1,38 @@
+{
+  "name": "readover",
+  "version": "0.0.1",
+  "description": "Writing Tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krauzer/readover.git"
+  },
+  "author": "Dylan Krause",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krauzer/readover/issues"
+  },
+  "homepage": "https://github.com/krauzer/readover#readme",
+  "dependencies": {
+    "hapi": "^11.1.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.1.2",
+    "babel-core": "^6.3.15",
+    "babel-eslint": "^5.0.0-beta4",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "css-loader": "^0.23.0",
+    "eslint": "^1.10.3",
+    "extract-text-webpack-plugin": "^0.9.1",
+    "node-sass": "^3.4.2",
+    "postcss-loader": "^0.8.0",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  }
+}

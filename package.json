@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/krauzer/readover#readme",
   "dependencies": {
-    "hapi": "^11.1.2"
+    "hapi": "^11.1.2",
+    "inert": "^3.2.0"
   },
   "devDependencies": {
     "autoprefixer": "^6.1.2",

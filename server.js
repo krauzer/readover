@@ -1,3 +1,5 @@
+const db = require('./db/db.js');
+
 const Hapi = require('hapi');
 const Inert = require('inert');
 

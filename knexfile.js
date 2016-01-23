@@ -1,7 +1,7 @@
 
 const config = {
 
-  development: {
+  dev: {
     client: 'sqlite3',
     connection: {
       filename: './db/dev.sqlite3'

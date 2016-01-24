@@ -4,6 +4,7 @@
   "description": "Writing Tool",
   "main": "index.js",
   "scripts": {
+    "dev server": "NODE_ENV=dev node server.js",
     "server": "node server.js",
     "dev": "./node_modules/.bin/webpack-dev-server --progress --colors",
     "build": "./node_modules/.bin/webpack -d --progress",
@@ -21,7 +22,9 @@
   },
   "homepage": "https://github.com/krauzer/readover#readme",
   "dependencies": {
-    "hapi": "^11.1.2",
+    "bookshelf": "^0.9.1",
+    "knex": "^0.9.0",
+    "hapi": "^12.0.0",
     "inert": "^3.2.0"
   },
   "devDependencies": {
@@ -36,6 +39,7 @@
     "node-sass": "^3.4.2",
     "postcss-loader": "^0.8.0",
     "sass-loader": "^3.1.2",
+    "sqlite3": "^3.1.1",
     "style-loader": "^0.13.0",
     "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.0"

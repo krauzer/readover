@@ -1,9 +1,16 @@
+const db = require('./db/db.js');
+
 const Hapi = require('hapi');
 const Inert = require('inert');
 
 const server = new Hapi.Server();
 
-server.connection({port: 3000});
+const connection = {
+  host: process.env.HOST || 'localhost',
+  port: process.env.PORT || '3000'
+}
+
+server.connection(connection);
 
 server.register(Inert, function(){});
 

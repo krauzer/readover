@@ -10,3 +10,4 @@ node_modules
 client/dist
 .csscomb.json
 .eslintrc
+*.sqlite3

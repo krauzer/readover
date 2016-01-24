@@ -1,3 +1,4 @@
+const path = require('path');
 
 const config = {
 
@@ -5,6 +6,10 @@ const config = {
     client: 'sqlite3',
     connection: {
       filename: './db/dev.sqlite3'
+    },
+    migrations: {
+      directory: path.resolve(__dirname, 'db/migrations'),
+      tableName: 'migrations'
     }
   },
 
@@ -20,7 +25,8 @@ const config = {
       max: 10
     },
     migrations: {
-      tableName: 'knex_migrations'
+      directory: path.resolve(__dirname, 'db/migrations'),
+      tableName: 'migrations'
     }
   },
 
@@ -36,7 +42,8 @@ const config = {
       max: 10
     },
     migrations: {
-      tableName: 'knex_migrations'
+      directory: path.resolve(__dirname, 'db/migrations'),
+      tableName: 'migrations'
     }
   }
 
